@@ -1,0 +1,14 @@
+{
+  "name": "forge-fiend-ui-explorer",
+  "version": "1.0.0",
+  "description": "A Forge app that explores Jira UI elements.",
+  "main": "index.js",
+  "dependencies": {
+    "@forge/ui": "^1.5.0",
+    "@forge/api": "^2.0.0"
+  },
+  "scripts": {
+    "deploy": "forge deploy -e production",
+    "install": "forge install -e production"
+  }
+}
